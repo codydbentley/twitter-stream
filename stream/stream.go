@@ -1,9 +1,10 @@
 package stream
 
 import (
-	"github.com/fallenstedt/twitter-stream/httpclient"
 	"net/http"
 	"net/url"
+
+	"github.com/fallenstedt/twitter-stream/httpclient"
 )
 
 type (
@@ -87,7 +88,7 @@ func (s *Stream) StartStream(optionalQueryParams *url.Values) error {
 
 func (s *Stream) streamMessages(res *http.Response) {
 	defer res.Body.Close()
-	defer close(s.messages)
+	defer s.StopStream()
 
 	for !stopped(s.done) {
 		b, err := s.reader.readNext()
@@ -96,7 +97,6 @@ func (s *Stream) streamMessages(res *http.Response) {
 				Data: nil,
 				Err:  err,
 			}
-			s.StopStream()
 			break
 		}
 		if len(b) == 0 {
