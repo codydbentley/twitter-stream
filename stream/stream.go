@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/fallenstedt/twitter-stream/httpclient"
+	"github.com/codydbentley/twitter-stream/httpclient"
 )
 
 type (

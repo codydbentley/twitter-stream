@@ -2,10 +2,10 @@
 package twitterstream
 
 import (
-	"github.com/fallenstedt/twitter-stream/httpclient"
-	"github.com/fallenstedt/twitter-stream/rules"
-	"github.com/fallenstedt/twitter-stream/stream"
-	"github.com/fallenstedt/twitter-stream/token_generator"
+	"github.com/codydbentley/twitter-stream/httpclient"
+	"github.com/codydbentley/twitter-stream/rules"
+	"github.com/codydbentley/twitter-stream/stream"
+	"github.com/codydbentley/twitter-stream/token_generator"
 )
 
 type TwitterApi struct {

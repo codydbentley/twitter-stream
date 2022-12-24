@@ -3,8 +3,8 @@
 ![go twitter](./go-twitter.png)
 
 [![v2](https://img.shields.io/endpoint?url=https%3A%2F%2Ftwbadges.glitch.me%2Fbadges%2Fv2)](https://developer.twitter.com/en/docs/twitter-api)
-[![Go Report Card](https://goreportcard.com/badge/github.com/fallenstedt/twitter-stream)](https://goreportcard.com/report/github.com/codydbentley/twitter-stream)
-[![Go Reference](https://pkg.go.dev/badge/github.com/fallenstedt/twitter-stream.svg)](https://pkg.go.dev/github.com/codydbentley/twitter-stream)
+[![Go Report Card](https://goreportcard.com/badge/github.com/codydbentley/twitter-stream)](https://goreportcard.com/report/github.com/codydbentley/twitter-stream)
+[![Go Reference](https://pkg.go.dev/badge/github.com/codydbentley/twitter-stream.svg)](https://pkg.go.dev/github.com/codydbentley/twitter-stream)
 
 
 >  ⚠️ *Note from Cody: I will be maintaining this fork as a separate project. At some point I may write a whole new project, not based on this package.*

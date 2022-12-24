@@ -2,7 +2,7 @@ package rules
 
 import (
 	"encoding/json"
-	"github.com/fallenstedt/twitter-stream/httpclient"
+	"github.com/codydbentley/twitter-stream/httpclient"
 	"net/url"
 )
 

@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	twitterstream "github.com/fallenstedt/twitter-stream"
-	"github.com/fallenstedt/twitter-stream/rules"
+	twitterstream "github.com/codydbentley/twitter-stream"
+	"github.com/codydbentley/twitter-stream/rules"
 )
 
 func addRules() {

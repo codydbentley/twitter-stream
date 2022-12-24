@@ -3,7 +3,7 @@ package stream
 import (
 	"bytes"
 	"fmt"
-	"github.com/fallenstedt/twitter-stream/httpclient"
+	"github.com/codydbentley/twitter-stream/httpclient"
 	"io"
 	"io/ioutil"
 	"net/http"
